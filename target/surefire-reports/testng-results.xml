@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-26T02:22:49 IST" name="Suite" finished-at="2023-05-26T02:25:34 IST" duration-ms="165486">
+    <groups>
+      <group name="cucumber">
+        <method signature="Web_Runner.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Playground.runner.Web_Runner@1649b0e6]" name="scenario" class="com.Playground.runner.Web_Runner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-05-26T02:22:49 IST" name="Web" finished-at="2023-05-26T02:25:34 IST" duration-ms="165486">
+      <class name="com.Playground.runner.Web_Runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Playground.runner.Web_Runner@1649b0e6]" started-at="2023-05-26T02:22:49 IST" name="setUpClass" finished-at="2023-05-26T02:22:49 IST" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Playground.runner.Web_Runner@1649b0e6]" started-at="2023-05-26T02:22:49 IST" name="scenario" description="Run Cucumber Scenario" data-provider="scenarios" finished-at="2023-05-26T02:25:31 IST" duration-ms="162043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive Login sceanario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This is the Login test Feature file for UrbanMonkey.com"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Playground.runner.Web_Runner@1649b0e6]" started-at="2023-05-26T02:25:31 IST" name="tearDownClass" finished-at="2023-05-26T02:25:34 IST" duration-ms="2554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Playground.runner.Web_Runner -->
+    </test> <!-- Web -->
+  </suite> <!-- Suite -->
+</testng-results>
